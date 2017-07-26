@@ -1,0 +1,128 @@
+body {
+    font-size: 30px;
+    color: #444;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-overflow-scrolling: touch;
+    /*流畅滚动*/
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+div,
+p,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+em,
+address,
+i {
+    font-style: normal;
+}
+
+button,
+input {
+    border: 0 none;
+    outline: none;
+}
+
+input[type="submit"],
+input[type="button"] {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+input,
+textarea {
+    /*-webkit-appearance: none;*/
+    -webkit-user-modify: read-write-plaintext-only;
+}
+
+a,
+img {
+    -webkit-touch-callout: none;
+}
+
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.html-unscrollable,
+.html-unscrollable body {
+    overflow: hidden;
+    height: 100%;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.clearfix:before {
+     content: '';
+     display: table;
+ }
+.clearfix:after {
+     content: '';
+     display: table;
+     clear: both;
+ }
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
